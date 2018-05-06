@@ -27,4 +27,9 @@ $(document).ready(function() {
     }
 
     getNewQuote();
+
+    $('#qet-quote').on('click', function (event) {
+        event.preventDefault();
+        getNewQuote();
+    });
 });
