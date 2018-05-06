@@ -1,12 +1,7 @@
-.app {
-    position: absolute;
-}
-
 .pageHeader {
     width: auto;
     height: 150px;
     background: gray;
-    position: relative;
     text-align: center;
     padding-top: 20px;
 }
@@ -16,25 +11,3 @@
     font-size: 25px;
 
 }
-
-.quoteSection {
-    width: auto;
-    height: 800px;
-}
-
-#randomQuote {
-    font-size: 20px;
-    color: black;
-}
-
-p {
-    font-size: 20px;
-    color: black;
-}
-
-.quoteBox {
-    border: 2px solid black;
-    width: 300px;
-    height: 200px;
-}
-
