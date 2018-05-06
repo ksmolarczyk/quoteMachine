@@ -1,13 +1,63 @@
 .pageHeader {
     width: auto;
     height: 150px;
-    background: gray;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 42px;
+    background-image: url("../images/art-bloom-blooming-355728.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 70px;
+
 }
 
-.h1 {
+.headerText {
+    font-size: 46px;
     color: white;
-    font-size: 25px;
+}
 
+.quoteBox {
+    height: 180px;
+    border: 1px #81CDF1 dashed;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#author {
+    font-style: italic;
+    font-family: 'Old Standard TT', serif;
+}
+
+#quote {
+    font-family: 'Old Standard TT', serif;
+    font-size: 22px;
+
+}
+
+#qet-quote {
+    background-color: #B0A4E2;
+    cursor: pointer;
+    margin-left: 42%;
+    width: 130px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-family: 'Sanchez', serif;
+    border-radius: 15px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#qet-quote:hover {
+    background-color: #81CDF1;
+    width: 160px;
+    height: 80px;
+    font-size: 20px;
+}
+
+.twitter-share-button {
+    float: right;
 }
