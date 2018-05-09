@@ -62,3 +62,5 @@ window.twttr = (function(d, s, id) {
     js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+
+// mobile
